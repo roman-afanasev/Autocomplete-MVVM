@@ -1,3 +1,8 @@
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+}
+
 .input {
   width: 300px;
   margin-bottom: 0;
@@ -8,11 +13,11 @@
   width: 300px;
   border: 1px solid black;
   padding: 4px;
+  list-style: none;
 }
 
 .suggestionsListItem {
   list-style: none;
-  padding: 0;
   cursor: pointer;
   padding: 2px;
 }
